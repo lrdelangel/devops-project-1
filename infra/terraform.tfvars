@@ -1,16 +1,16 @@
-bucket_name = "dev-proj-1-remote-state-bucket"
+bucket_name = "dev-proj-1-remote-state-bucket-2"
 name        = "environment"
 environment = "dev-1"
 
 vpc_cidr             = "10.0.0.0/16"
-vpc_name             = "dev-proj-eu-central-vpc-1"
+vpc_name             = "dev-proj-us-east-vpc-1"
 cidr_public_subnet   = ["10.0.1.0/24", "10.0.2.0/24"]
 cidr_private_subnet  = ["10.0.3.0/24", "10.0.4.0/24"]
-eu_availability_zone = ["eu-central-1a", "eu-central-1b"]
+us_availability_zone = ["us-east-1a", "us-east-1b"]
 
-public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDwmgMHFJE7J4qepIzAZL3/yC6J0zsEAb/oHYL+WBBDNUjSH4TeHUnHVNe9b/pyPcub+O/HNvlGrzSxUp0xT0b3O7kkTtgBKiG8NaBbonj+c7byfOGER80DYxc5adlBltuIDd8StFe7OMzbYyUSr1mdxDTIWm/OoE39G/fu3hTqUGkykv072GAy8nMFejITRw9pf+53B9ziE5rsdOUH4uqBiQa/Ng/qKo7h9MtJGcloRATYiObXwAgrHtt3sDrtvkq2ZceT906/BJm1Twlm+BHlQecHV18Ak3bzm/6HzlsA/q+yORsoB+VxSUxvVy0nXTc1X8vJAD4KSYVL5DTrpisdnQAIcuqAbea+LMku2o4sdnrrIlUi8/8BXeVbI4TNNGd0+sWpCVcDEhb4gyA/XXTvloQyjTYrL4+am/9XEY6NGdsrPK74sjvtpUZPUrmzTJ/mJWG5ncGY88GAj+YZAsY5pnAqh2CkR2TUpglugldnWyrppbe2QyC9iQkgUGSkBTs= rahulwagh@Rahuls-MacBook-Pro.local"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2cHwtHc/Es746Vs0AnigxNVLhifqgQNh7AvqSx8/KicF0hhI519P3jnZrt+uFu2PZHHKzlgbjslSua2mtvKlXKbM6HlpcF8rd85+kihZCuUJ1pCuAoPsVl87pgMwpgCcVz+1rshhyjrMgmkNmBOA9h0YKtpL79+Z81aqcNVF7cTfLvwRSDFjtMN1oGs77SjNK3v6+wBXDoruANbuKP7H0MQkb0MBHR4+44CEKscm81ZvKhrk6NY9JfaXYgsZGFsg/GHiN8eGK8Xej0JNpYXfzHW66oUG3v2Jn2bHAp6l2+PwJDcIoEj1lhTkvGVEOiTf4LMvCvFha8p14BNor1m2nUmXaZshukfR9/hKhvSFjhSG7B7lSPcHRkiAAJZX8QWO6k/WGGLB+iOr3vwcEVUoQeYMGYKqzjGk8r32KnN7CJR8VyK/xzbnLK2jW7QZKeCdhRP6nWRZdUKWoTG8NH2PbAhIp1UHFGm3ctMDn0FV8dVx9S/RwXgnrQ8QGDoY6xPs= luis.delangel@luis-delangel.local"
 ec2_ami_id     = "ami-06dd92ecc74fdfb36"
 
 ec2_user_data_install_apache = ""
 
-domain_name = "jhooq.org"
+domain_name = "dev-albo.tech"
