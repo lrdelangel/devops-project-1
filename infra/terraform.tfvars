@@ -13,4 +13,4 @@ ec2_ami_id     = "ami-04b4f1a9cf54c11d0"
 
 ec2_user_data_install_apache = ""
 
-domain_name = "dev-albo.tech"
+domain_name = "appdb.dev-albo.tech"
